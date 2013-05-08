@@ -34,7 +34,7 @@
 -include_lib("eunit/include/eunit.hrl").
 -endif.
 
--define(RAW_LIST_TAG, '______dontfuckwithme').
+-define(RAW_LIST_TAG, '__RAW__').
 
 
 -spec json_to_term(JSON::binary(), Opts::decoder_opts()) -> eep0018().
